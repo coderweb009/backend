@@ -154,7 +154,12 @@ router.put('/update_receivable_cash', function (req, res, next) {
     DealFinalNew.findOne({_id: req.query.id}).then(function (record) {
  
         record.receivable_advance = req.body.receivable_advance;
- 
+     
+       if(!record.receivable_advance) {
+            record.receivable_advance.bank_details=req.body.receivable_advance;
+           } else {
+            record.receivable_advance=req.body.receivable_advance;
+        }
  
         record.save(function (err, result) {
             console.log(err);
