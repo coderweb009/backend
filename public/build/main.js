@@ -7814,6 +7814,28 @@ var TrafficOperationsPage = /** @class */ (function () {
             });
             _this.deal = data.results;
             console.log('Data >>>>>>>', _this.deal);
+            var tmp = [];
+            var tmp2 = [];
+            _this.deal = _this.deal.map(function (e) {
+                // tmp.push()   
+                e.tmp = [];
+                e.traffic_operations.bank_details.forEach(function (k) {
+                    // tmp.push(k.bank_amount)   
+                    e.tmp.push(k.bank_amount);
+                });
+                e.amountTotal = e.tmp.reduce(function (a, b) { return a + b; }, 0);
+                return e;
+            });
+            _this.deal = _this.deal.map(function (e) {
+                // tmp.push()   
+                e.tmp2 = [];
+                e.receivable_advance.forEach(function (k) {
+                    // tmp.push(k.bank_amount)   
+                    e.tmp2.push(k.cheque_amount);
+                });
+                e.amountTotal_recive = e.tmp2.reduce(function (a, b) { return a + b; }, 0);
+                return e;
+            });
             localStorage.setItem("data", JSON.stringify(_this.deal));
             _this.pendingVerification = _this.deal.filter(function (e) {
                 return !e.traffic_operations.document_verification;
