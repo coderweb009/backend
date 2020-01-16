@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":2,"key":{"_id":1},"name":"_id_","ns":"trucking.transport_details"},{"v":2,"key":{"address.address_location":"2dsphere"},"name":"address.address_location_2dsphere","ns":"trucking.transport_details","2dsphereIndexVersion":3}],"uuid":"41d129a6595248f686b63f1ffdc73723"}
