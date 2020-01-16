@@ -7794,7 +7794,7 @@ var TrafficOperationsPage = /** @class */ (function () {
         console.log('ionViewDidLoad TrafficOperationsPage');
         // this.deal = this.navParams.get('data');
         localStorage.removeItem("quality");
-        this.getDealFinalList();
+        // this.getDealFinalList();
     };
     TrafficOperationsPage.prototype.home = function () {
         this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_2__home_home__["a" /* HomePage */]);
