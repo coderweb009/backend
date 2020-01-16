@@ -9915,10 +9915,10 @@ var map = {
 		505
 	],
 	"../pages/admin-privileges/manage-account-categories/edit-account-category/edit-account-category.module": [
-		507
+		506
 	],
 	"../pages/admin-privileges/manage-account-categories/manage-account-categories.module": [
-		506
+		507
 	],
 	"../pages/admin-privileges/manage-account-types/add-account-type/add-account-type.module": [
 		508
@@ -9930,10 +9930,10 @@ var map = {
 		510
 	],
 	"../pages/admin-privileges/manage-cancel-reasons/add-cancel-reasons/add-cancel-reasons.module": [
-		512
+		511
 	],
 	"../pages/admin-privileges/manage-cancel-reasons/edit-cancel-reasons/edit-cancel-reasons.module": [
-		511
+		512
 	],
 	"../pages/admin-privileges/manage-cancel-reasons/manage-cancel-reasons.module": [
 		513
@@ -9991,11 +9991,11 @@ var map = {
 		6
 	],
 	"../pages/edit-company-details/edit-company-details.module": [
-		1035,
+		1034,
 		5
 	],
 	"../pages/edit-company-requirements/edit-company-requirements.module": [
-		1034,
+		1035,
 		4
 	],
 	"../pages/edit-driver-details/edit-driver-details.module": [
@@ -10029,19 +10029,19 @@ var map = {
 		535
 	],
 	"../pages/manage-accounts-master/edit-account-master/edit-account-master.module": [
-		537
+		536
 	],
 	"../pages/manage-accounts-master/manage-accounts-master.module": [
-		536
+		537
 	],
 	"../pages/manage-advance-amount/add-advance-amount/add-advance-amount.module": [
 		200
 	],
 	"../pages/manage-advance-amount/edit-advance-amount/edit-advance-amount.module": [
-		539
+		538
 	],
 	"../pages/manage-advance-amount/manage-advance-amount.module": [
-		538
+		539
 	],
 	"../pages/manage-agencies/manage-agencies.module": [
 		540
@@ -27401,50 +27401,6 @@ var AddAccountCategoryPageModule = /** @class */ (function () {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ManageAccountCategoriesPageModule", function() { return ManageAccountCategoriesPageModule; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__manage_account_categories__ = __webpack_require__(472);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__add_account_category_add_account_category_module__ = __webpack_require__(505);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__edit_account_category_edit_account_category_module__ = __webpack_require__(507);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-
-
-
-
-
-var ManageAccountCategoriesPageModule = /** @class */ (function () {
-    function ManageAccountCategoriesPageModule() {
-    }
-    ManageAccountCategoriesPageModule = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["NgModule"])({
-            declarations: [
-                __WEBPACK_IMPORTED_MODULE_2__manage_account_categories__["a" /* ManageAccountCategoriesPage */],
-            ],
-            imports: [
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__manage_account_categories__["a" /* ManageAccountCategoriesPage */]),
-                __WEBPACK_IMPORTED_MODULE_3__add_account_category_add_account_category_module__["AddAccountCategoryPageModule"],
-                __WEBPACK_IMPORTED_MODULE_4__edit_account_category_edit_account_category_module__["EditAccountCategoryPageModule"]
-            ],
-        })
-    ], ManageAccountCategoriesPageModule);
-    return ManageAccountCategoriesPageModule;
-}());
-
-//# sourceMappingURL=manage-account-categories.module.js.map
-
-/***/ }),
-
-/***/ 507:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "EditAccountCategoryPageModule", function() { return EditAccountCategoryPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(2);
@@ -27475,6 +27431,50 @@ var EditAccountCategoryPageModule = /** @class */ (function () {
 }());
 
 //# sourceMappingURL=edit-account-category.module.js.map
+
+/***/ }),
+
+/***/ 507:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ManageAccountCategoriesPageModule", function() { return ManageAccountCategoriesPageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__manage_account_categories__ = __webpack_require__(472);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__add_account_category_add_account_category_module__ = __webpack_require__(505);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__edit_account_category_edit_account_category_module__ = __webpack_require__(506);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+var ManageAccountCategoriesPageModule = /** @class */ (function () {
+    function ManageAccountCategoriesPageModule() {
+    }
+    ManageAccountCategoriesPageModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["NgModule"])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_2__manage_account_categories__["a" /* ManageAccountCategoriesPage */],
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__manage_account_categories__["a" /* ManageAccountCategoriesPage */]),
+                __WEBPACK_IMPORTED_MODULE_3__add_account_category_add_account_category_module__["AddAccountCategoryPageModule"],
+                __WEBPACK_IMPORTED_MODULE_4__edit_account_category_edit_account_category_module__["EditAccountCategoryPageModule"]
+            ],
+        })
+    ], ManageAccountCategoriesPageModule);
+    return ManageAccountCategoriesPageModule;
+}());
+
+//# sourceMappingURL=manage-account-categories.module.js.map
 
 /***/ }),
 
@@ -27603,44 +27603,6 @@ var ManageAccountTypesPageModule = /** @class */ (function () {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "EditCancelReasonsPageModule", function() { return EditCancelReasonsPageModule; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__edit_cancel_reasons__ = __webpack_require__(468);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-
-
-
-var EditCancelReasonsPageModule = /** @class */ (function () {
-    function EditCancelReasonsPageModule() {
-    }
-    EditCancelReasonsPageModule = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["NgModule"])({
-            declarations: [
-                __WEBPACK_IMPORTED_MODULE_2__edit_cancel_reasons__["a" /* EditCancelReasonsPage */],
-            ],
-            imports: [
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__edit_cancel_reasons__["a" /* EditCancelReasonsPage */]),
-            ],
-        })
-    ], EditCancelReasonsPageModule);
-    return EditCancelReasonsPageModule;
-}());
-
-//# sourceMappingURL=edit-cancel-reasons.module.js.map
-
-/***/ }),
-
-/***/ 512:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddCancelReasonsPageModule", function() { return AddCancelReasonsPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(2);
@@ -27674,6 +27636,44 @@ var AddCancelReasonsPageModule = /** @class */ (function () {
 
 /***/ }),
 
+/***/ 512:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "EditCancelReasonsPageModule", function() { return EditCancelReasonsPageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__edit_cancel_reasons__ = __webpack_require__(468);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+var EditCancelReasonsPageModule = /** @class */ (function () {
+    function EditCancelReasonsPageModule() {
+    }
+    EditCancelReasonsPageModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["NgModule"])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_2__edit_cancel_reasons__["a" /* EditCancelReasonsPage */],
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__edit_cancel_reasons__["a" /* EditCancelReasonsPage */]),
+            ],
+        })
+    ], EditCancelReasonsPageModule);
+    return EditCancelReasonsPageModule;
+}());
+
+//# sourceMappingURL=edit-cancel-reasons.module.js.map
+
+/***/ }),
+
 /***/ 513:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -27683,8 +27683,8 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__manage_cancel_reasons__ = __webpack_require__(466);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__edit_cancel_reasons_edit_cancel_reasons_module__ = __webpack_require__(511);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__add_cancel_reasons_add_cancel_reasons_module__ = __webpack_require__(512);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__edit_cancel_reasons_edit_cancel_reasons_module__ = __webpack_require__(512);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__add_cancel_reasons_add_cancel_reasons_module__ = __webpack_require__(511);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -28683,50 +28683,6 @@ var AddAccountMasterPageModule = /** @class */ (function () {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ManageAccountsMasterPageModule", function() { return ManageAccountsMasterPageModule; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__manage_accounts_master__ = __webpack_require__(111);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__add_account_master_add_account_master_module__ = __webpack_require__(535);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__edit_account_master_edit_account_master_module__ = __webpack_require__(537);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-
-
-
-
-
-var ManageAccountsMasterPageModule = /** @class */ (function () {
-    function ManageAccountsMasterPageModule() {
-    }
-    ManageAccountsMasterPageModule = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["NgModule"])({
-            declarations: [
-                __WEBPACK_IMPORTED_MODULE_2__manage_accounts_master__["a" /* ManageAccountsMasterPage */],
-            ],
-            imports: [
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__manage_accounts_master__["a" /* ManageAccountsMasterPage */]),
-                __WEBPACK_IMPORTED_MODULE_3__add_account_master_add_account_master_module__["AddAccountMasterPageModule"],
-                __WEBPACK_IMPORTED_MODULE_4__edit_account_master_edit_account_master_module__["EditAccountMasterPageModule"]
-            ],
-        })
-    ], ManageAccountsMasterPageModule);
-    return ManageAccountsMasterPageModule;
-}());
-
-//# sourceMappingURL=manage-accounts-master.module.js.map
-
-/***/ }),
-
-/***/ 537:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "EditAccountMasterPageModule", function() { return EditAccountMasterPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(2);
@@ -28767,7 +28723,89 @@ var EditAccountMasterPageModule = /** @class */ (function () {
 
 /***/ }),
 
+/***/ 537:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ManageAccountsMasterPageModule", function() { return ManageAccountsMasterPageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__manage_accounts_master__ = __webpack_require__(111);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__add_account_master_add_account_master_module__ = __webpack_require__(535);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__edit_account_master_edit_account_master_module__ = __webpack_require__(536);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+var ManageAccountsMasterPageModule = /** @class */ (function () {
+    function ManageAccountsMasterPageModule() {
+    }
+    ManageAccountsMasterPageModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["NgModule"])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_2__manage_accounts_master__["a" /* ManageAccountsMasterPage */],
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__manage_accounts_master__["a" /* ManageAccountsMasterPage */]),
+                __WEBPACK_IMPORTED_MODULE_3__add_account_master_add_account_master_module__["AddAccountMasterPageModule"],
+                __WEBPACK_IMPORTED_MODULE_4__edit_account_master_edit_account_master_module__["EditAccountMasterPageModule"]
+            ],
+        })
+    ], ManageAccountsMasterPageModule);
+    return ManageAccountsMasterPageModule;
+}());
+
+//# sourceMappingURL=manage-accounts-master.module.js.map
+
+/***/ }),
+
 /***/ 538:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "EditAdvanceAmountPageModule", function() { return EditAdvanceAmountPageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__edit_advance_amount__ = __webpack_require__(485);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+var EditAdvanceAmountPageModule = /** @class */ (function () {
+    function EditAdvanceAmountPageModule() {
+    }
+    EditAdvanceAmountPageModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["NgModule"])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_2__edit_advance_amount__["a" /* EditAdvanceAmountPage */],
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__edit_advance_amount__["a" /* EditAdvanceAmountPage */]),
+            ],
+        })
+    ], EditAdvanceAmountPageModule);
+    return EditAdvanceAmountPageModule;
+}());
+
+//# sourceMappingURL=edit-advance-amount.module.js.map
+
+/***/ }),
+
+/***/ 539:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -28805,44 +28843,6 @@ var ManageAdvanceAmountPageModule = /** @class */ (function () {
 }());
 
 //# sourceMappingURL=manage-advance-amount.module.js.map
-
-/***/ }),
-
-/***/ 539:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "EditAdvanceAmountPageModule", function() { return EditAdvanceAmountPageModule; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__edit_advance_amount__ = __webpack_require__(485);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-
-
-
-var EditAdvanceAmountPageModule = /** @class */ (function () {
-    function EditAdvanceAmountPageModule() {
-    }
-    EditAdvanceAmountPageModule = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["NgModule"])({
-            declarations: [
-                __WEBPACK_IMPORTED_MODULE_2__edit_advance_amount__["a" /* EditAdvanceAmountPage */],
-            ],
-            imports: [
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__edit_advance_amount__["a" /* EditAdvanceAmountPage */]),
-            ],
-        })
-    ], EditAdvanceAmountPageModule);
-    return EditAdvanceAmountPageModule;
-}());
-
-//# sourceMappingURL=edit-advance-amount.module.js.map
 
 /***/ }),
 
@@ -30211,8 +30211,8 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_42__pages_admin_privileges_manage_payment_type_manage_payment_type_module__ = __webpack_require__(519);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_43__pages_admin_privileges_manage_cancel_reasons_manage_cancel_reasons_module__ = __webpack_require__(513);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_44__pages_admin_privileges_manage_account_types_manage_account_types_module__ = __webpack_require__(510);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_45__pages_admin_privileges_manage_account_categories_manage_account_categories_module__ = __webpack_require__(506);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_46__pages_manage_accounts_master_manage_accounts_master_module__ = __webpack_require__(536);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_45__pages_admin_privileges_manage_account_categories_manage_account_categories_module__ = __webpack_require__(507);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_46__pages_manage_accounts_master_manage_accounts_master_module__ = __webpack_require__(537);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_47__providers_accounts__ = __webpack_require__(34);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_48__pages_manage_accounts_ledger_manage_accounts_ledger_module__ = __webpack_require__(534);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_49__pages_admin_privileges_manage_rewards_redemption_add_rewards_redemption_manage_rewards_module__ = __webpack_require__(520);
@@ -30225,9 +30225,9 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_56__pages_manage_pod_manage_pod_module__ = __webpack_require__(549);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_57__pages_manage_deal_final_new_manage_deal_final_new_module__ = __webpack_require__(543);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_58__pages_manage_deal_final_new_add_deal_final_new_add_deal_final_new_module__ = __webpack_require__(201);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_59__pages_manage_advance_amount_manage_advance_amount_module__ = __webpack_require__(538);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_59__pages_manage_advance_amount_manage_advance_amount_module__ = __webpack_require__(539);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_60__pages_manage_advance_amount_add_advance_amount_add_advance_amount_module__ = __webpack_require__(200);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_61__pages_manage_advance_amount_edit_advance_amount_edit_advance_amount_module__ = __webpack_require__(539);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_61__pages_manage_advance_amount_edit_advance_amount_edit_advance_amount_module__ = __webpack_require__(538);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_62__providers_fleet_management__ = __webpack_require__(72);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_63__pages_attach_documents_attach_documents_module__ = __webpack_require__(524);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_64__pages_deal_final_dashboard_deal_final_dashboard_module__ = __webpack_require__(529);
@@ -30327,8 +30327,8 @@ var AppModule = /** @class */ (function () {
                 __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["g" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_3__app_component__["a" /* MyApp */], {}, {
                     links: [
                         { loadChildren: '../pages/accounts-transactions/accounts-transactions.module#AccountsTransactionsPageModule', name: 'AccountsTransactionsPage', segment: 'accounts-transactions', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/admin-privileges/add-agencies/add-agencies.module#AddAgenciesPageModule', name: 'AddAgenciesPage', segment: 'add-agencies', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/accounts-transactions/edit-accounts-transactions/edit-accounts-transactions.module#EditAccountsTransactionsPageModule', name: 'EditAccountsTransactionsPage', segment: 'edit-accounts-transactions', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/admin-privileges/add-agencies/add-agencies.module#AddAgenciesPageModule', name: 'AddAgenciesPage', segment: 'add-agencies', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/admin-privileges/add-company/add-company.module#AddCompanyPageModule', name: 'AddCompanyPage', segment: 'add-company', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/admin-privileges/add-driver/add-driver.module#AddDriverPageModule', name: 'AddDriverPage', segment: 'add-driver', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/admin-privileges/add-employee/add-employee.module#AddEmployeePageModule', name: 'AddEmployeePage', segment: 'add-employee', priority: 'low', defaultHistory: [] },
@@ -30337,13 +30337,13 @@ var AppModule = /** @class */ (function () {
                         { loadChildren: '../pages/admin-privileges/admin-privileges-add-truck/admin-privileges-add-truck.module#AdminPrivilegesAddTruckPageModule', name: 'AdminPrivilegesAddTruckPage', segment: 'admin-privileges-add-truck', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/admin-privileges/admin-privileges.module#AdminPrivilegesPageModule', name: 'AdminPrivilegesPage', segment: 'admin-privileges', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/admin-privileges/manage-account-categories/add-account-category/add-account-category.module#AddAccountCategoryPageModule', name: 'AddAccountCategoryPage', segment: 'add-account-category', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/admin-privileges/manage-account-categories/edit-account-category/edit-account-category.module#EditAccountCategoryPageModule', name: 'EditAccountCategoryPage', segment: 'edit-account-category', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/admin-privileges/manage-account-categories/manage-account-categories.module#ManageAccountCategoriesPageModule', name: 'ManageAccountCategoriesPage', segment: 'manage-account-categories', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/admin-privileges/manage-account-types/add-account-type/add-account-type.module#AddAccountTypePageModule', name: 'AddAccountTypePage', segment: 'add-account-type', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/admin-privileges/manage-account-categories/edit-account-category/edit-account-category.module#EditAccountCategoryPageModule', name: 'EditAccountCategoryPage', segment: 'edit-account-category', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/admin-privileges/manage-account-types/edit-account-type/edit-account-type.module#EditAccountTypePageModule', name: 'EditAccountTypePage', segment: 'edit-account-type', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/admin-privileges/manage-account-types/manage-account-types.module#ManageAccountTypesPageModule', name: 'ManageAccountTypesPage', segment: 'manage-account-types', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/admin-privileges/manage-cancel-reasons/edit-cancel-reasons/edit-cancel-reasons.module#EditCancelReasonsPageModule', name: 'EditCancelReasonsPage', segment: 'edit-cancel-reasons', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/admin-privileges/manage-cancel-reasons/add-cancel-reasons/add-cancel-reasons.module#AddCancelReasonsPageModule', name: 'AddCancelReasonsPage', segment: 'add-cancel-reasons', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/admin-privileges/manage-cancel-reasons/edit-cancel-reasons/edit-cancel-reasons.module#EditCancelReasonsPageModule', name: 'EditCancelReasonsPage', segment: 'edit-cancel-reasons', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/admin-privileges/manage-cancel-reasons/manage-cancel-reasons.module#ManageCancelReasonsPageModule', name: 'ManageCancelReasonsPage', segment: 'manage-cancel-reasons', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/admin-privileges/manage-payment-mode/add-payment-mode/add-payment-mode.module#AddPaymentModePageModule', name: 'AddPaymentModePage', segment: 'add-payment-mode', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/admin-privileges/manage-payment-mode/edit-payment-mode/edit-payment-mode.module#EditPaymentModePageModule', name: 'EditPaymentModePage', segment: 'edit-payment-mode', priority: 'low', defaultHistory: [] },
@@ -30362,10 +30362,10 @@ var AppModule = /** @class */ (function () {
                         { loadChildren: '../pages/call-booking-request-load/call-booking-request-load.module#CallBookingRequestLoadPageModule', name: 'CallBookingRequestLoadPage', segment: 'call-booking-request-load', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/deal-final-dashboard/deal-final-dashboard.module#DealFinalDashboardPageModule', name: 'DealFinalDashboardPage', segment: 'deal-final-dashboard', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/edit-agencies-details/edit-agencies-details.module#EditAgenciesDetailsPageModule', name: 'EditAgenciesDetailsPage', segment: 'edit-agencies-details', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/edit-company-requirements/edit-company-requirements.module#EditCompanyRequirementsPageModule', name: 'EditCompanyRequirementsPage', segment: 'edit-company-requirements', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/edit-employee/edit-employee.module#EditEmployeePageModule', name: 'EditEmployeePage', segment: 'edit-employee', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/edit-company-details/edit-company-details.module#EditCompanyDetailsPageModule', name: 'EditCompanyDetailsPage', segment: 'edit-company-details', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/edit-company-requirements/edit-company-requirements.module#EditCompanyRequirementsPageModule', name: 'EditCompanyRequirementsPage', segment: 'edit-company-requirements', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/edit-driver-details/edit-driver-details.module#EditDriverDetailsPageModule', name: 'EditDriverDetailsPage', segment: 'edit-driver-details', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/edit-employee/edit-employee.module#EditEmployeePageModule', name: 'EditEmployeePage', segment: 'edit-employee', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/edit-request-load/edit-request-load.module#EditRequestLoadPageModule', name: 'EditRequestLoadPage', segment: 'edit-request-load', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/edit-transport-details/edit-transport-details.module#EditTransportDetailsPageModule', name: 'EditTransportDetailsPage', segment: 'edit-transport-details', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/edit-truck-details/edit-truck-details.module#EditTruckDetailsPageModule', name: 'EditTruckDetailsPage', segment: 'edit-truck-details', priority: 'low', defaultHistory: [] },
@@ -30373,19 +30373,19 @@ var AppModule = /** @class */ (function () {
                         { loadChildren: '../pages/loads-availability/loads-availability.module#LoadsAvailabilityPageModule', name: 'LoadsAvailabilityPage', segment: 'loads-availability', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/manage-accounts-ledger/manage-accounts-ledger.module#ManageAccountsLedgerPageModule', name: 'ManageAccountsLedgerPage', segment: 'manage-accounts-ledger', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/manage-accounts-master/add-account-master/add-account-master.module#AddAccountMasterPageModule', name: 'AddAccountMasterPage', segment: 'add-account-master', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/manage-accounts-master/manage-accounts-master.module#ManageAccountsMasterPageModule', name: 'ManageAccountsMasterPage', segment: 'manage-accounts-master', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/manage-accounts-master/edit-account-master/edit-account-master.module#EditAccountMasterPageModule', name: 'EditAccountMasterPage', segment: 'edit-account-master', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/manage-accounts-master/manage-accounts-master.module#ManageAccountsMasterPageModule', name: 'ManageAccountsMasterPage', segment: 'manage-accounts-master', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/manage-advance-amount/add-advance-amount/add-advance-amount.module#AddAdvanceAmountPageModule', name: 'AddAdvanceAmountPage', segment: 'add-advance-amount', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/manage-advance-amount/manage-advance-amount.module#ManageAdvanceAmountPageModule', name: 'ManageAdvanceAmountPage', segment: 'manage-advance-amount', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/manage-advance-amount/edit-advance-amount/edit-advance-amount.module#EditAdvanceAmountPageModule', name: 'EditAdvanceAmountPage', segment: 'edit-advance-amount', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/manage-advance-amount/manage-advance-amount.module#ManageAdvanceAmountPageModule', name: 'ManageAdvanceAmountPage', segment: 'manage-advance-amount', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/manage-agencies/manage-agencies.module#ManageAgenciesPageModule', name: 'ManageAgenciesPage', segment: 'manage-agencies', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/manage-company-list/manage-company-list.module#ManageCompanyListPageModule', name: 'ManageCompanyListPage', segment: 'manage-company-list', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/manage-deal-final-new/add-deal-final-new/add-deal-final-new.module#AddDealFinalNewPageModule', name: 'AddDealFinalNewPage', segment: 'add-deal-final-new', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/manage-deal-final-new/edit-deal-final-new/edit-deal-final-new.module#EditDealFinalNewPageModule', name: 'EditDealFinalNewPage', segment: 'edit-deal-final-new', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/manage-deal-final-new/manage-deal-final-new.module#ManageDealFinalNewPageModule', name: 'ManageDealFinalNewPage', segment: 'manage-deal-final-new', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/manage-deal-final/manage-deal-final.module#ManageDealFinalPageModule', name: 'ManageDealFinalPage', segment: 'manage-deal-final', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/manage-deal-final/deal-final/deal-final.module#DealFinalPageModule', name: 'DealFinalPage', segment: 'deal-final', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/manage-deal-final/edit-deal-final/edit-deal-final.module#EditDealFinalPageModule', name: 'EditDealFinalPage', segment: 'edit-deal-final', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/manage-deal-final/manage-deal-final.module#ManageDealFinalPageModule', name: 'ManageDealFinalPage', segment: 'manage-deal-final', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/manage-driver/manage-driver.module#ManageDriverPageModule', name: 'ManageDriverPage', segment: 'manage-driver', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/manage-employees/manage-employees.module#ManageEmployeesPageModule', name: 'ManageEmployeesPage', segment: 'manage-employees', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/manage-pod/add-pod/add-pod.module#AddPodPageModule', name: 'AddPodPage', segment: 'add-pod', priority: 'low', defaultHistory: [] },
@@ -30400,8 +30400,8 @@ var AppModule = /** @class */ (function () {
                         { loadChildren: '../pages/manage-user/manage-user.module#ManageUserPageModule', name: 'ManageUserPage', segment: 'manage-user', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/match-company-list/match-company-list.module#MatchCompanyListPageModule', name: 'MatchCompanyListPage', segment: 'match-company-list', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/rewards-ledger/rewards-ledger.module#RewardsLedgerPageModule', name: 'RewardsLedgerPage', segment: 'rewards-ledger', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/setting/setting.module#SettingPageModule', name: 'SettingPage', segment: 'setting', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/rewards-trial-balance/rewards-trial-balance.module#RewardsTrialBalancePageModule', name: 'RewardsTrialBalancePage', segment: 'rewards-trial-balance', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/setting/setting.module#SettingPageModule', name: 'SettingPage', segment: 'setting', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/traffic-operation/traffic-operation.module#TrafficOperationPageModule', name: 'TrafficOperationPage', segment: 'traffic-operation', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/traffic-operations/traffic-operations.module#TrafficOperationsPageModule', name: 'TrafficOperationsPage', segment: 'traffic-operations', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/traffic-quality-control/traffic-quality-control.module#TrafficQualityControlPageModule', name: 'TrafficQualityControl', segment: 'traffic-quality-control', priority: 'low', defaultHistory: [] },
@@ -30568,7 +30568,7 @@ var FleetManagement = /** @class */ (function () {
 var AppSettings = /** @class */ (function () {
     function AppSettings() {
     }
-    AppSettings.API_ENDPOINT = 'http://localhost:8081/api';
+    AppSettings.API_ENDPOINT = 'http://142.93.181.214:8081/api';
     // public static API_ENDPOINT = 'http://localhost:3000/api';
     AppSettings.APP_VERSION = '1.0';
     return AppSettings;
