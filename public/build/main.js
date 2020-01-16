@@ -7784,6 +7784,12 @@ var TrafficOperationsPage = /** @class */ (function () {
         this.pendingRcvBalance = [];
         localStorage.removeItem("quality");
     }
+    TrafficOperationsPage.prototype.ionViewDidEnter = function () {
+        console.log('ionViewDidLoad TrafficOperationsPage');
+        // this.deal = this.navParams.get('data');
+        localStorage.removeItem("quality");
+        this.getDealFinalList();
+    };
     TrafficOperationsPage.prototype.ionViewDidLoad = function () {
         console.log('ionViewDidLoad TrafficOperationsPage');
         // this.deal = this.navParams.get('data');
@@ -26229,6 +26235,10 @@ var TrafficQualityControl = /** @class */ (function () {
         this.isShow = false;
         localStorage.setItem("quality", "yes");
     }
+    TrafficQualityControl.prototype.ionViewDidEnter = function () {
+        localStorage.setItem("quality", "yes");
+        this.getDealFinalList();
+    };
     TrafficQualityControl.prototype.ionViewDidLoad = function () {
         console.log('ionViewDidLoad TrafficOperationsPage');
         // this.deal = this.navParams.get('data');
@@ -32439,7 +32449,7 @@ var TrafficOpsReceivableAdvanceComponent = /** @class */ (function () {
         this.text = 'Hello World';
         this.data = JSON.parse(localStorage.data)[Number(localStorage.index)];
         this.saveData = JSON.parse(localStorage.data)[Number(localStorage.index)];
-        this.saveData.receivable_advance.map(function (e) {
+        this.saveData.receivable_advance = this.saveData.receivable_advance.map(function (e) {
             e.final_amount = _this.saveData.transporter_freight - e.cheque_amount;
             _this.saveData.transporter_freight = e.final_amount;
             return e;
