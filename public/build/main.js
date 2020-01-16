@@ -7824,13 +7824,14 @@ var TrafficOperationsPage = /** @class */ (function () {
             _this.podRecive = _this.deal.filter(function (e) {
                 return !e.traffic_operations.pod_t_uploaded;
             });
-            _this.deal.filter(function (e) {
+            _this.deal = _this.deal.map(function (e) {
                 if (e.transporter_freight - e.receivable_advance.cheque_amount > 0) {
                     _this.pendingBalance.push(e.transporter_freight - e.receivable_advance.cheque_amount);
                 }
                 if (e.transporter_freight - e.traffic_operations.bank_details.bank_amount > 0) {
                     _this.pendingRcvBalance.push(e.transporter_freight - e.traffic_operations.bank_details.bank_amount);
                 }
+                return e;
             });
             console.log(_this.pendingBalance);
             _this.pendingAmnt = _this.pendingBalance.reduce(function (a, b) { return a + b; }, 0);
