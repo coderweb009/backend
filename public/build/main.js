@@ -7820,8 +7820,10 @@ var TrafficOperationsPage = /** @class */ (function () {
                 // tmp.push()   
                 e.tmp = [];
                 e.traffic_operations.bank_details.forEach(function (k) {
-                    // tmp.push(k.bank_amount)   
-                    e.tmp.push(k.bank_amount);
+                    // tmp.push(k.bank_amount) 
+                    if (!isNaN(k.bank_amount)) {
+                        e.tmp.push(k.bank_amount);
+                    }
                 });
                 e.amountTotal = e.tmp.reduce(function (a, b) { return a + b; }, 0);
                 return e;
@@ -7831,7 +7833,9 @@ var TrafficOperationsPage = /** @class */ (function () {
                 e.tmp2 = [];
                 e.receivable_advance.forEach(function (k) {
                     // tmp.push(k.bank_amount)   
-                    e.tmp2.push(k.cheque_amount);
+                    if (!isNaN(k.cheque_amount)) {
+                        e.tmp2.push(k.cheque_amount);
+                    }
                 });
                 e.amountTotal_recive = e.tmp2.reduce(function (a, b) { return a + b; }, 0);
                 return e;
@@ -32097,8 +32101,10 @@ var TrafficOpsDealsTabComponent = /** @class */ (function () {
             // tmp.push()   
             e.tmp = [];
             e.traffic_operations.bank_details.forEach(function (k) {
-                // tmp.push(k.bank_amount)   
-                e.tmp.push(k.bank_amount);
+                // tmp.push(k.bank_amount) 
+                if (!isNaN(k.bank_amount)) {
+                    e.tmp.push(k.bank_amount);
+                }
             });
             e.amountTotal = e.tmp.reduce(function (a, b) { return a + b; }, 0);
             return e;
@@ -32108,7 +32114,9 @@ var TrafficOpsDealsTabComponent = /** @class */ (function () {
             e.tmp2 = [];
             e.receivable_advance.forEach(function (k) {
                 // tmp.push(k.bank_amount)   
-                e.tmp2.push(k.cheque_amount);
+                if (!isNaN(k.cheque_amount)) {
+                    e.tmp2.push(k.cheque_amount);
+                }
             });
             e.amountTotal_recive = e.tmp2.reduce(function (a, b) { return a + b; }, 0);
             return e;
