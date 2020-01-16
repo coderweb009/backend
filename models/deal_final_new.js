@@ -339,28 +339,34 @@ const DealFinalNewSchema = mongoose.Schema({
     receivable_advance:[{
          cheque_name: {
         type: String,
-        required: false
+        required: false,
+        default:''
     },
     payment_mode: {
         type: String,
-        required: false
+        required: false,
+        default:''
     },
     cheque_no: {
         type: String,
-        required: false
+        required: false,
+        default:0
     },
     cheque_date: {
         type: Date,
-        required: false
+        required: false,
+        default:''
     },
     bank_name: {
         type: String,
-        required: false
+        required: false,
+        default:''
     },
     cheque_amount: {
         type: Number,
         default: 0,
-        required: false
+        required: false,
+        default:0
     },
     labour_charge: {
         type: Number,
@@ -389,11 +395,15 @@ const DealFinalNewSchema = mongoose.Schema({
         },
         driver_name:{
         type: String,
-        required: false
+        required: false,
+        default: "",
+
         },
         mobile:{
         type: String,
-        required: false
+        required: false,
+        default: "",
+        
         },
         amount:{
         type: String,
