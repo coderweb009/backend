@@ -7825,7 +7825,7 @@ var TrafficOperationsPage = /** @class */ (function () {
                         e.tmp.push(k.bank_amount);
                     }
                 });
-                e.amountTotal = e.tmp.reduce(function (a, b) { return a + b; }, 0);
+                e.amountTotal = e.tmp.reduce(function (a, b) { return Number(a) + Number(b); }, 0);
                 return e;
             });
             _this.deal = _this.deal.map(function (e) {
@@ -7837,7 +7837,7 @@ var TrafficOperationsPage = /** @class */ (function () {
                         e.tmp2.push(k.cheque_amount);
                     }
                 });
-                e.amountTotal_recive = e.tmp2.reduce(function (a, b) { return a + b; }, 0);
+                e.amountTotal_recive = e.tmp2.reduce(function (a, b) { return Number(a) + Number(b); }, 0);
                 return e;
             });
             localStorage.setItem("data", JSON.stringify(_this.deal));
