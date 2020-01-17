@@ -355,7 +355,12 @@ const DealFinalNewSchema = mongoose.Schema({
     cheque_date: {
         type: Date,
         required: false,
-        default:''
+        default:new Date()
+    },
+    date: {
+        type: Date,
+        required: false,
+        default:new Date()
     },
     bank_name: {
         type: String,
